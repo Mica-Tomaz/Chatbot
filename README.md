@@ -1,2 +1,29 @@
-# Chatbot Paleontológico
+# Chatbot com Interface Terminal e Web
+
 Trata-se de um assistente/guia em forma de Chatbot utilizando o LLama 3.2 3B.
+Este repositório contém um chatbot funcional com duas formas de interação: via terminal e via interface web com Streamlit.
+
+## Requisitos
+
+As bibliotecas necessárias para executar os códigos estão listadas no arquivo [`requirements.txt`](./requirements.txt).
+
+> ⚠️ **Importante sobre o PyTorch:**  
+> Para instalar a biblioteca **PyTorch**, especialmente se você deseja utilizar a **GPU** durante o carregamento da pipeline do modelo, recomenda-se acessar o site oficial da [PyTorch](https://pytorch.org) e copiar o comando de instalação fornecido lá.  
+> O site gera o comando ideal com base nas especificações da sua máquina e na versão dos drivers CUDA instalados, garantindo maior compatibilidade e desempenho.
+
+## Arquivos Principais
+
+### `Chat.py`
+
+Permite interações com o chatbot diretamente pelo terminal.
+
+**Uso:**
+python Chat.py
+
+### `Chat_web.py`
+
+Implementa a mesma lógica do Chat.py, mas com uma interface web utilizando a biblioteca Streamlit.
+As interações acontecem via navegador, acessando o localhost.
+
+**Uso:**
+python -m streamlit run Chat_web.py
