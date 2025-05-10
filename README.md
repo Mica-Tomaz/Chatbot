@@ -1,4 +1,4 @@
-# Chatbot com Interface Terminal e Web
+# Chatbot Paleontológico com Interface Terminal e Web
 
 Este repositório contém um chatbot (assistente/guia utilizando o LLama 3.2 3B) funcional com duas formas de interação: via terminal e via interface web com Streamlit.
 
