@@ -8,10 +8,10 @@ As bibliotecas necessárias para executar os códigos estão listadas no arquivo
 
 > ⚠️ **Importante sobre o PyTorch:**  
 > Para instalar a biblioteca **PyTorch**, especialmente se você deseja utilizar a **GPU** durante o carregamento da pipeline do modelo, recomenda-se acessar o site oficial da [PyTorch](https://pytorch.org) e copiar o comando de instalação fornecido lá.  
-> O site gera o comando ideal com base nas especificações da sua máquina e na versão dos drivers CUDA instalados, garantindo maior compatibilidade e desempenho.
-> EX: pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+> O site gera o comando ideal com base nas especificações da sua máquina e na versão dos drivers CUDA instalados, garantindo maior compatibilidade e desempenho.  
+> EX: pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118  
 
-![image](https://github.com/user-attachments/assets/c1f425c4-a504-4708-a53a-0acb8d498cfd)
+![image](https://github.com/user-attachments/assets/c1f425c4-a504-4708-a53a-0acb8d498cfd)  
 
 ## Arquivos Principais
 
