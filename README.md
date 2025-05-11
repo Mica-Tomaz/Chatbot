@@ -1,6 +1,6 @@
 # Chatbot Paleontológico com Interface Terminal e Web
 
-Este repositório contém um chatbot (assistente/guia utilizando o LLama 3.2 3B) funcional com duas formas de interação: via terminal e via interface web com Streamlit.  
+Este repositório contém um chatbot (assistente/guia utilizando o LLama 3.2 3B) funcional com duas formas de interação: via terminal e via interface web com Streamlit.    
 O objetivo do chatbot é atuar como um guia paleontológico interativo para o museu. Ele foi pensado para que qualquer pessoa possa tirar dúvidas de forma acessível e sem constrangimentos, funcionando como um assistente pessoal sempre disponível para responder perguntas.
 
 ## Requisitos
